@@ -1,0 +1,40 @@
+body{
+    background-color: darkmagenta;
+}
+.contenedor{
+    width: 90%;
+    height: 100%;
+    margin: auto;
+    background-color: white;
+}
+i{
+    font-size: 50px;
+}
+fa-facebook{
+    color: #1877f2;
+    font-size: 20px;
+}
+fa-instagram{
+    color: #e1306c
+}
+fa-whatsapp{
+    color: #25d366;
+}
+fa-youtube{
+    color: #ff0000;
+}
+fa-tiktok{
+    color: #000000;
+}
+fa-android{
+    color: #a4c639;
+}
+fa-microsoft{
+    color: #f65314;
+}
+fa-apple{
+    color: #caccd1;
+}
+fa-linux{
+    color: #333333;
+}

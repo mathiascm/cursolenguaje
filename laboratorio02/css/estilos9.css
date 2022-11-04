@@ -1,0 +1,241 @@
+body{
+    background-color: darkgreen;
+}
+.contenedor{
+    width: 90%;
+    height: 100%;
+    background-color: white;
+    margin: auto;
+}
+/* Existen varios tipos de bordes los cuales podemos agregar, los principales son:
+dotted
+dashed
+solid 
+double
+grove
+ridge
+inset
+outset
+none
+hidden */
+.border1{
+    background-color: orange;
+    width: 100px;
+    height: 200px;
+    border-style: dotted;
+}
+.border2{
+    background-color: orange;
+    width: 100px;
+    height: 200px;
+    border-style: dashed;
+}
+.border3{
+    background-color: orange;
+    width: 100px;
+    height: 200px;
+    border-style: solid;
+}
+.border4{
+    background-color: orange;
+    width: 100px;
+    height: 200px;
+    border-style: groove;
+}
+.border5{
+    background-color: orange;
+    width: 100px;
+    height: 200px;
+    border-style: ridge;
+}
+.border6{
+    background-color: orange;
+    width: 100px;
+    height: 200px;
+    border-style: inset;
+}
+.border7{
+    background-color: orange;
+    width: 100px;
+    height: 200px;
+    border-style: dotted;
+}
+.border8{
+    background-color: orange;
+    width: 100px;
+    height: 200px;
+    border-style: none;
+}
+.border9{
+    background-color: orange;
+    width: 100px;
+    height: 200px;
+    border-style: double;
+}
+.border10{
+    background-color: orange;
+    width: 100px;
+    height: 200px;
+    border-style: hidden;
+}
+/* Tambien se pueden combinar los bordes de la siguiente manera: 
+boder-style: (arriba, abajo, izquierda y derecha)
+boder-style: (arriba y abajo) (izquierda y derecha)
+boder-style: (arriba) (izquierda y derecha) (abajo)
+boder-style: (arriba) (derecha) (izquierda) (abajo) */
+.border11{
+    background-color: orange;
+    width: 100px;
+    height: 200px;
+    border-style: dotted solid;
+}
+.border12{
+    background-color: orange;
+    width: 100px;
+    height: 200px;
+    border-style: dotted solid dashed;
+}
+.border13{
+    background-color: orange;
+    width: 100px;
+    height: 200px;
+    border-style: dotted solid dashed double;
+}
+/* aplicando el ancho al borde */
+.border14{
+    background-color: orange;
+    width: 100px;
+    height: 200px;
+    border-style: solid;
+    border-width: 15px;
+}
+.border15{
+    background-color: orange;
+    width: 100px;
+    height: 200px;
+    border-style: solid;
+    border-width: 15px 20px;
+}
+.border16{
+    background-color: orange;
+    width: 100px;
+    height: 200px;
+    border-style: solid;
+    border-width: 15px 20px 25px;
+}
+.border17{
+    background-color: orange;
+    width: 100px;
+    height: 200px;
+    border-style: solid;
+    border-width: 15px 20px 25px;
+    max-width: 95%;
+}
+.border18{
+    background-color: orange;
+    width: 100px;
+    height: 200px;
+    border-style: solid;
+    border-width: 15px 20px 25px;
+    max-width: 95%;
+    border-color: darkblue;
+}
+.border19{
+    background-color: orange;
+    width: 100px;
+    height: 200px;
+    border-style: solid;
+    border-width: 15px 20px 25px;
+    max-width: 95%;
+    border-color: darkblue darkmagenta;
+}
+.border20{
+    background-color: orange;
+    width: 100px;
+    height: 200px;
+    border-style: solid;
+    border-width: 15px 20px 25px;
+    max-width: 95%;
+    border-color: darkblue darkmagenta darkred;
+}
+.border21{
+    background-color: orange;
+    width: 100px;
+    height: 200px;
+    border-style: solid;
+    border-width: 15px 20px 25px;
+    max-width: 95%;
+    border-color: darkblue darkmagenta darkred darkcyan;
+}
+/* aplicando solo bordes a un lugar especifico
+top ---> superior
+left ---> izquierda 
+right ---> derecha
+inferior ---> bottom */
+.border22{
+    background-color: orange;
+    width: 100px;
+    height: 200px;
+    max-width: 95%;
+    border-top-style: dashed;
+    border-top-color: aqua;
+    border-top-width: 15px;
+}
+.border23{
+    background-color: orange;
+    width: 100px;
+    height: 200px;
+    max-width: 95%;
+    border-left-style: dashed;
+    border-left-color: aqua;
+    border-left-width: 15px;
+}
+.border24{
+    background-color: orange;
+    width: 100px;
+    height: 200px;
+    max-width: 95%;
+    border-right-style: dashed;
+    border-right-color: aqua;
+    border-right-width: 15px;
+}
+.border25{
+    background-color: orange;
+    width: 100px;
+    height: 200px;
+    max-width: 95%;
+    border-bottom-style: dashed;
+    border-bottom-color: aqua;
+    border-bottom-width: 15px;
+}
+/* redondeando border 
+border-radius */
+.border26{
+    background-color: orange;
+    width: 100px;
+    height: 200px;
+    border-style: solid;
+    border-width: 15px;
+    max-width: 95%;
+    border-color: darkblue;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

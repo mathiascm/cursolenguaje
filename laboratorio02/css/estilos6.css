@@ -1,0 +1,23 @@
+/* aplicando estilos para la maquetacion --> diseño de la pagina web */
+.contenedor{
+    /* definiendo el ancho */
+    width: 1024px;
+    background-color: beige;
+}
+
+nav{
+    width: 1024px; /*  width es ancho */
+    height: 200px;
+    background-color: pink;
+}
+
+.principal{
+    width: 1024px;
+    height: 550px;
+    background-color: greenyellow;
+}
+footer{
+    width: 1024px;
+    height: 50px;
+    background-color: yellow;
+}

@@ -1,0 +1,60 @@
+body{
+    background-color: darkcyan;
+}
+.contenedor{
+    width: 90%;
+    height: 100%;
+    margin: auto;
+    background-color: white;
+    padding: 20px;
+}
+ul  li{
+    text-decoration: none;
+    list-style: none;
+    display: inline;
+}
+.vinculo:link{
+    color: chocolate;
+}
+.vinculo1:visited{
+    color: green;
+}
+.vinculo1:hover{
+    color: darkmagenta;
+}
+.vinculo2:link{
+    color: red;
+}
+.vinculo2:visited{
+    color: cadetblue;
+}
+.vinculo2:hover{
+    color: darkkhaki;
+}
+.vinculo:active{
+    text-decoration: none;
+}
+.vinculo3:link, .vinculo3:visited{
+    background-color: green;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10px;
+}
+.vinculo3:hover, .vinculo3:active{
+    background-color: red;
+    border-radius: 10px;
+}
+.vinculo4:link, .vinculo4:visited{
+    background-color: black;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10px;
+}
+.vinculo4:hover, .vinculo4:active{
+    background-color: blue;
+    border-radius: 10px;
+}

@@ -1,0 +1,19 @@
+/* selector de clase */
+.tituloprincipal{
+    color:red;
+}
+.subtitulo{
+    color:green;
+}
+.parrafo1{
+    color:darkgoldenrod;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    text-align: center;
+}
+.parrafo2{
+    color:darkblue;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    text-align: justify;
+}

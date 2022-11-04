@@ -1,0 +1,60 @@
+/* importamos la letra desde google */
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@400;700&display=swap');
+*{
+    padding: 15px;
+}
+body{
+    background-color: darkgoldenrod;
+}
+.contenedor{
+    width: 90%;
+    height: 100%;
+    margin: auto;
+    background-color: white;
+}
+.fuente{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.fuente2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.fuente3{
+    font-family: 'Fruzzy Bubbles', cursive;
+}
+/* crear el Font-Face */
+@font-face{
+    font-family: "Secular One";
+    src: url(/fonts/SecularOne-Regular.ttf);
+}
+.fuente4{
+    font-family: "Secualar One";
+}
+/* creamos un Font Face */
+@font-face {
+    font-family: "Batman Fa";
+    src: url("/fonts/batmfa__.ttf");
+}
+.fuente5{
+    font-family: "Batman Fa";
+}
+@font-face {
+    font-family: "Batman Fo";
+    src: url("/fonts/batmfo__.ttf");
+}
+.fuente6{
+    font-family: "Batman Fo";
+}
+@font-face {
+    font-family: "Naruto";
+    src: url("/fonts/njnaruto.ttf");
+}
+.fuente7{
+    font-family: "Naruto";
+}
+@font-face {
+    font-family: "StarJedi";
+    src: url("/fonts/Starjedi.ttf");
+}
+.fuente8{
+    font-family: "StarJedi";
+}

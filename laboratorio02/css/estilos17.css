@@ -1,0 +1,19 @@
+body{
+    background-color: blueviolet;
+}
+.contenedor{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    background-color: white;
+}
+ul{
+    background-color: cornflowerblue;
+    padding: 15px;
+    list-style: square;
+    list-style-position: inside;
+}
+ul li{
+    background-color: cornsilk;
+    margin: 5px;
+}

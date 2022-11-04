@@ -1,0 +1,8 @@
+/* aplicando el selector universal */
+*{
+    color: orange;
+    font-style: italic;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+    font-size: 25px;
+}
